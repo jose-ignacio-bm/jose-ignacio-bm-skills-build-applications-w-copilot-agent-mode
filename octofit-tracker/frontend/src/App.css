@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3f2fd; /* Light blue background */
+  color: #212529; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0d6efd; /* Bootstrap primary blue for headings */
+}
+
+a {
+  color: #0d6efd; /* Bootstrap primary blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #0d6efd; /* Bootstrap primary blue navigation */
+  color: #ffffff; /* White text */
+}
+
+nav a {
+  color: #ffffff; /* White links in navigation */
+}
+
+nav a:hover {
+  color: #ffc107; /* Yellow on hover */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  color: #212529; /* Dark gray text */
+}
+
+.table thead {
+  background-color: #0d6efd; /* Bootstrap primary blue for table headers */
+  color: #ffffff; /* White text */
+}
+
+button {
+  background-color: #0d6efd; /* Bootstrap primary blue for buttons */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0a58ca; /* Darker blue on hover */
+}
+
+.card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #dee2e6; /* Light gray border */
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-header {
+  background-color: #0d6efd; /* Bootstrap primary blue for card headers */
+  color: #ffffff; /* White text */
+}
+
+.card-body {
+  color: #212529; /* Dark gray text */
+}
+
+.modal-content {
+  background-color: #ffffff; /* White modal background */
+  border-radius: 0.25rem;
+}
+
+.modal-header {
+  background-color: #0d6efd; /* Bootstrap primary blue for modal headers */
+  color: #ffffff; /* White text */
+}
+
+.modal-footer button {
+  background-color: #0d6efd; /* Bootstrap primary blue for modal buttons */
+  color: #ffffff; /* White text */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
